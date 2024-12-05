@@ -1,0 +1,52 @@
+body{
+    background-color: #f8f8f8;
+}
+.pricing .btn{
+    border: 2px solid #1eb2a6; 
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.pricing .btn:hover{
+    background-color: #1eb2a6;
+    color: white;
+}
+.price .amount{
+    color: #1eb2a6;
+    position: relative;
+    font-size: 50px;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.price .amount::before{
+    content: '$';
+    position: absolute;
+    left: -15px;
+    bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translateY(-50%);
+}
+
+.faq .heading{
+    text-align: center;
+}
+.faq .heading h5{
+    color: #1eb2a6;
+
+}
+.accordion{
+    width: 1000px;
+    margin: 0px auto;
+
+}
+.accordion-body{
+    line-height: 1.7;
+    font-size: 18px;
+}
+.accordion   .accordion-button {
+    color: #1eb2a6;
+    font-size: 20px;
+}

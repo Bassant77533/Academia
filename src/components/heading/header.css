@@ -1,0 +1,81 @@
+
+nav{
+    background-color: rgba(255, 255, 255, 0.364);
+}
+.social  li{
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1eb2a6;
+    transition: 0.5s;
+}
+.social  li:hover{
+    color: white;
+    background-color: #1eb2a6 ;
+    cursor: pointer;
+}
+header{
+    color: white;
+}
+header  li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+header ul li a:hover{
+    color: #1eb2a6;
+}
+header .button{
+    background-color: #1eb2a6;
+    position: relative;
+    padding: 30px 60px;
+    margin: 0;
+    clip-path: polygon( 10% 0% , 100% 0% , 100% 100% , 0% 100%);
+}
+.toggler{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    display: none;
+}
+.flexSB{
+    display: flex;
+    align-items: center;
+}
+@media(max-width:776px){
+    .button{
+        clip-path: none !important;
+    }
+    .toggler{
+        display: block;
+        position: absolute;
+        background: none;
+        right: 20px;
+        top: 15px;
+    }
+    nav{
+        background-color: #1eb2a6;
+        position: relative;
+    }
+    header ul.flexSB {
+        display: none;
+    }
+}
+.mobile-nav{
+    position: absolute;
+    width: 100%;
+    top: 11vh;
+    left: 0;
+    width: 100%;
+    background-color: #1eb2a6;
+}
+.mobile-nav li a {
+    padding: 10px;
+    display: block;
+}

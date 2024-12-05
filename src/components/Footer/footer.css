@@ -1,0 +1,63 @@
+.news-letter{
+    background-color: #1eb2a6 ;
+}
+
+.news-letter .input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+.news-letter .input .message{
+    border: none;
+    flex: 1;
+}
+.news-letter .input .message:focus{
+    outline: none;
+}
+.input i {
+    color: #1eb2a6;
+}
+
+footer .desc p {
+    color: #1eb2a6;
+    margin-bottom: 20px;
+}
+footer .social li {
+    background-color: #1eb2a6;
+    color: white;
+}
+.explore ul li i {
+     color: #1eb2a6;
+     font-weight: 600;
+}
+.explore ul li   {
+    margin-bottom: 20px;
+    margin-right: 10px;
+   
+}
+.explore{
+    margin-right: auto;
+    margin-left: auto;
+}
+footer .box img {
+    width: 70px;
+    height: 60px;
+}
+footer .info i {
+    color: #1eb2a6;
+}
+.explore p {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+footer .content span{
+    font-size: 14px;
+    color: #1eb2a6 !important;
+}
+.copy-right i {
+    color: #1eb2a6;
+}
+.copy-right {
+    background-color: #eee;
+}

@@ -1,0 +1,41 @@
+.team-member{
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    background-color: #fff;
+   
+}
+.team-card .overlay{
+    z-index: 11;
+    bottom: 10px;
+    left: 10px ;
+}
+.team-card .social {
+    opacity: 0 ;
+    transition: 0.5s;
+}
+.team-card .overlay li {
+    background-color: black;
+    color: white;
+
+}
+.team-card .overlay li:hover{
+    background-color: #1eb2a6 ;
+
+}
+.team-card .team-info p {
+    color: gray;
+}   
+.team-card  .team-member{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.team-card  .team-member:hover{
+    background-color: #1eb2a6;
+    color: white;
+    
+}
+.team-card  .team-member:hover p {
+    color: white;
+}
+.team-member:hover .social {
+    opacity: 1 ;
+}

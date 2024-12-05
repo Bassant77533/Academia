@@ -1,0 +1,22 @@
+.hero{
+    background-image: url(../../../public/images/bg.webp);
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    background-attachment: fixed;
+    padding-top: 20%;
+}
+@media (max-width: 992px) {
+    .hero{
+        background-position: right bottom;
+        height: 80vh;
+    }
+    .hero .row{
+        margin-top: 20vh;
+    }
+}
+ 

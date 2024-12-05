@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.btn{
+    background-color: white;
+    color: #1eb2a6;
+    padding: 15px 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.main-button{
+    background-color: #1eb2a6;
+    color: white;
+}
+.back{
+    background-image: url(../public/images/back.webp);
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    background-attachment: fixed;
+    padding-top: 30%;
+}
+.back .text h1 {
+    font-size: 100px;
+    font-weight: normal;
+}
+@media (max-width: 992px) {
+    .back{
+        background-position: right bottom;
+        height: 80vh;
+    }
+    .back .text{
+        margin-top: 20vh;
+    }
+}
+.margin{
+    margin-top: 80vh;
+}
+@media (max-width: 992px) {
+    .margin{
+        margin-top: 60vh;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px; 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blog .heading , 
+.pricing .heading {
+    text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.blog .heading h5 , 
+.pricing .heading h5  {
+    color: #1eb2a6;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blog .name , 
+.pricing .name{
+    color: #1eb2a6;
 }
